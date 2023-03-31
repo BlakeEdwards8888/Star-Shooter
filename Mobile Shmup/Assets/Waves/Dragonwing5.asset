@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27f66b718232cc44bf66c239852ffa1, type: 3}
+  m_Name: Dragonwing5
+  m_EditorClassIdentifier: 
+  waveItems:
+  - spawnConfigs:
+    - enemyPrefab: {fileID: 4341110747663064724, guid: eb0cfa52fb444294a8062e8fde60eb7a, type: 3}
+      viewportSpawnPosition: {x: 0.25, y: 1}
+      additionalSettings: []
+    waitForNext: 0.75
+  - spawnConfigs:
+    - enemyPrefab: {fileID: 4341110747663064724, guid: eb0cfa52fb444294a8062e8fde60eb7a, type: 3}
+      viewportSpawnPosition: {x: 0.75, y: 1}
+      additionalSettings: []
+    waitForNext: 0.75
+  - spawnConfigs:
+    - enemyPrefab: {fileID: 4341110747663064724, guid: eb0cfa52fb444294a8062e8fde60eb7a, type: 3}
+      viewportSpawnPosition: {x: 0.5, y: 1}
+      additionalSettings: []
+    waitForNext: 0.75
+  - spawnConfigs:
+    - enemyPrefab: {fileID: 4341110747663064724, guid: eb0cfa52fb444294a8062e8fde60eb7a, type: 3}
+      viewportSpawnPosition: {x: 0.25, y: 1}
+      additionalSettings: []
+    waitForNext: 0.75
+  - spawnConfigs:
+    - enemyPrefab: {fileID: 4341110747663064724, guid: eb0cfa52fb444294a8062e8fde60eb7a, type: 3}
+      viewportSpawnPosition: {x: 0.75, y: 1}
+      additionalSettings: []
+    waitForNext: 1.5
+  scoreRange: {x: 1000, y: -1}
